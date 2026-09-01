@@ -1,0 +1,61 @@
+image-classification-project/
+│
+├── data/
+│   ├── animals/
+│   │   ├── train/
+│   │   ├── val/
+│   │   └── test/
+│   │
+│   ├── butterflies/
+│   │   ├── train/
+│   │   ├── val/
+│   │   └── test/
+│   │
+│   └── imagenet10/
+│       ├── train/
+│       ├── val/
+│       └── test/
+│
+├── configs/
+│   ├── animals_resnet18.yaml
+│   ├── animals_resnet34.yaml
+│   ├── butterflies_resnet18.yaml
+│   └── imagenet10_convnext.yaml
+│
+├── src/
+│   ├── datasets/
+│   │   ├── dataset.py
+│   │   ├── transforms.py
+│   │   └── split.py
+│   │
+│   ├── models/
+│   │   ├── model_factory.py
+│   │   └── se_resnet.py
+│   │
+│   ├── training/
+│   │   ├── train.py
+│   │   ├── validate.py
+│   │   └── losses.py
+│   │
+│   ├── evaluation/
+│   │   ├── metrics.py
+│   │   ├── confusion_matrix.py
+│   │   └── calibration.py
+│   │
+│   └── utils/
+│       ├── seed.py
+│       ├── logger.py
+│       └── checkpoint.py
+│
+├── checkpoints/
+│
+├── reports/
+│   ├── figures/
+│   ├── metrics/
+│   └── model_cards/
+│
+├── inference.py
+├── train.py
+├── evaluate.py
+├── requirements.txt
+└── README.md
