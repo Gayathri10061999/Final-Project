@@ -1,0 +1,13 @@
+{
+    "butterfly": 0,
+    "crane": 1,
+    "ducks": 2,
+    "echidna": 3,
+    "goose": 4,
+    "humming_bird": 5,
+    "jacamar": 6,
+    "koala": 7,
+    "sandhill_crane": 8,
+    "swan": 9,
+    "toucan": 10
+}
